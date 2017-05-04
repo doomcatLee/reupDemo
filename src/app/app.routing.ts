@@ -3,6 +3,8 @@ import { Routes, RouterModule } from '@angular/router';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { DispatchComponent } from './dispatch/dispatch.component';
 import { ProductComponent } from './product/product.component';
+import { AnalyticsComponent } from './analytics/analytics.component';
+import { HistoryComponent } from './history/history.component';
 
 const appRoutes: Routes = [
   {
@@ -17,6 +19,14 @@ const appRoutes: Routes = [
   {
     path: 'product',
     component: ProductComponent
+  },
+  {
+    path: 'analytics',
+    component: AnalyticsComponent
+  },
+  {
+    path: 'history',
+    component: HistoryComponent
   }
 ];
 

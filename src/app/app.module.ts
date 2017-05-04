@@ -12,6 +12,8 @@ import { routing } from './app.routing';
 import { QueueDispatchComponent } from './queue-dispatch/queue-dispatch.component';
 import { DispatchComponent } from './dispatch/dispatch.component';
 import { ProductComponent } from './product/product.component';
+import { AnalyticsComponent } from './analytics/analytics.component';
+import { HistoryComponent } from './history/history.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { ProductComponent } from './product/product.component';
     DashboardComponent,
     QueueDispatchComponent,
     DispatchComponent,
-    ProductComponent
+    ProductComponent,
+    AnalyticsComponent,
+    HistoryComponent
   ],
   imports: [
     BrowserModule,
