@@ -9,23 +9,24 @@ import { AppComponent } from './app.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 
 import { routing } from './app.routing';
-import { QueueDispatchComponent } from './queue-dispatch/queue-dispatch.component';
 import { DispatchComponent } from './dispatch/dispatch.component';
 import { ProductComponent } from './product/product.component';
 import { AnalyticsComponent } from './analytics/analytics.component';
 import { HistoryComponent } from './history/history.component';
 import { ProductDetailComponent } from './product-detail/product-detail.component';
+import { DispensariesComponent } from './dispensaries/dispensaries.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DashboardComponent,
-    QueueDispatchComponent,
+    DispatchComponent,
     DispatchComponent,
     ProductComponent,
     AnalyticsComponent,
     HistoryComponent,
-    ProductDetailComponent
+    ProductDetailComponent,
+    DispensariesComponent
   ],
   imports: [
     BrowserModule,

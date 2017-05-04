@@ -1,0 +1,20 @@
+{
+  "name": "reup",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Alex Lee <doomcat9167@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/doomcatLee/reupDemo",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}

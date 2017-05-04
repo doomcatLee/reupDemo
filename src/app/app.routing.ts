@@ -6,6 +6,7 @@ import { ProductComponent } from './product/product.component';
 import { AnalyticsComponent } from './analytics/analytics.component';
 import { HistoryComponent } from './history/history.component';
 import { ProductDetailComponent } from './product-detail/product-detail.component';
+import { DispensariesComponent } from './dispensaries/dispensaries.component';
 
 const appRoutes: Routes = [
   {
@@ -32,6 +33,10 @@ const appRoutes: Routes = [
   {
     path: 'history',
     component: HistoryComponent
+  },
+  {
+    path: 'dispensaries',
+    component: DispensariesComponent
   }
 ];
 
