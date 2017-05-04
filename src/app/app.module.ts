@@ -9,11 +9,17 @@ import { AppComponent } from './app.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 
 import { routing } from './app.routing';
+import { QueueDispatchComponent } from './queue-dispatch/queue-dispatch.component';
+import { DispatchComponent } from './dispatch/dispatch.component';
+import { ProductComponent } from './product/product.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DashboardComponent
+    DashboardComponent,
+    QueueDispatchComponent,
+    DispatchComponent,
+    ProductComponent
   ],
   imports: [
     BrowserModule,
