@@ -1,1 +1,11 @@
 <h1>This is the product page</h1>
+
+<div class="well" *ngFor="let product of products">
+    <li>Id: {{product.id}}</li>
+    <li>Name: {{product.name}}</li>
+    <li>THC: {{product.thc}}</li>
+
+    <button (click)="goToDetailPage(product)" class="btn btn-default" type="button" name="button">Details</button>
+    <button class="btn btn-default" type="button" name="button">Edit</button>
+    <button class="btn btn-default" type="button" name="button">Delete</button>
+</div>

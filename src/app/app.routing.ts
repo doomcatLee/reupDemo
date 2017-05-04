@@ -5,6 +5,7 @@ import { DispatchComponent } from './dispatch/dispatch.component';
 import { ProductComponent } from './product/product.component';
 import { AnalyticsComponent } from './analytics/analytics.component';
 import { HistoryComponent } from './history/history.component';
+import { ProductDetailComponent } from './product-detail/product-detail.component';
 
 const appRoutes: Routes = [
   {
@@ -19,6 +20,10 @@ const appRoutes: Routes = [
   {
     path: 'product',
     component: ProductComponent
+  },
+  {
+    path: 'products/:id',
+    component: ProductDetailComponent
   },
   {
     path: 'analytics',

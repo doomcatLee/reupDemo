@@ -14,6 +14,7 @@ import { DispatchComponent } from './dispatch/dispatch.component';
 import { ProductComponent } from './product/product.component';
 import { AnalyticsComponent } from './analytics/analytics.component';
 import { HistoryComponent } from './history/history.component';
+import { ProductDetailComponent } from './product-detail/product-detail.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { HistoryComponent } from './history/history.component';
     DispatchComponent,
     ProductComponent,
     AnalyticsComponent,
-    HistoryComponent
+    HistoryComponent,
+    ProductDetailComponent
   ],
   imports: [
     BrowserModule,
